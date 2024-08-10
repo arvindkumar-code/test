@@ -1,0 +1,91 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: rgba(240, 255, 255, 0.122);
+    background-image: url(../../Downloads/baack.jpg);
+    background-position: center;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: skyblue;
+    color: white;KKKKKOKOKOKOKO
+    height: 40px;
+    padding: 10px 20px ;
+    text-decoration: none;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+}
+.destinations{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.destination{
+    border: 1px solid gray;
+    background-color: #ffffff;
+    border-radius: 1rem;
+    flex-basis: 30%;
+    margin-bottom: 20px;
+}
+
+.destinations img {
+    width: 350px;
+    height: 200px;
+    padding: 10px 20px;
+}
+.destination h3{
+    font-size: 30px;
+}
+.container{
+    padding: 20px 50px;
+}
+.heading h1{
+    font-size: 50px;
+}
+.heading p{
+    font-size: 20px;
+    padding: 10px;
+}
+.heading a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.btn{
+    background-color: black;
+    border-radius: 1.5rem;
+    padding: 10px 20px;
+}
+@media(max-width:500px){
+    nav{
+        flex-direction: column;
+    }
+    .menu a{
+        font-size: 3vh;
+    }
+    .heading{
+        flex-direction: column;
+    
+    }
+    .heading h1{
+        font-size: 25px;
+        margin-top: 20px;
+    }
+    .destinations{
+        flex-direction: column;
+        align-items: flex-start;
+
+    }
+}
